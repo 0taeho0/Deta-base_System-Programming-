@@ -1,0 +1,3 @@
+SELECT *
+FROM PC_USE
+WHERE total>=1000 and name='정연택';
