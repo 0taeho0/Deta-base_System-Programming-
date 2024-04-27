@@ -1,0 +1,6 @@
+--select 조회할 컬럼     <---- 5
+--from 테이블명     <---- 1
+--where 조건     <---- 2
+--group by     <---- 3
+--having     <---- 4
+--order by      <---- 6
