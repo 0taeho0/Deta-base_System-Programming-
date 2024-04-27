@@ -1,0 +1,3 @@
+select *
+from pc_use
+where add_time >= 5;
