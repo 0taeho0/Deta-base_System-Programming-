@@ -1,0 +1,3 @@
+select birth
+from pc_member
+where birth like '__%08%__';
