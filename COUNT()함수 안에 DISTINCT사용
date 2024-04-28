@@ -1,0 +1,2 @@
+select count(DISTINCT fd1)
+from pc_use;
