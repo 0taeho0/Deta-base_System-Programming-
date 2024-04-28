@@ -1,0 +1,4 @@
+select *  
+from pc_member
+-- where gender=1 or gender=3;
+-- where gender in(1, 3);
