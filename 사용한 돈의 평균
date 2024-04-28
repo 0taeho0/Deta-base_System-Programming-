@@ -1,0 +1,2 @@
+select avg(total)
+from pc_use;
