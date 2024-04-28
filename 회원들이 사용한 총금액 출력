@@ -1,0 +1,2 @@
+select sum(total)
+from pc_use;
