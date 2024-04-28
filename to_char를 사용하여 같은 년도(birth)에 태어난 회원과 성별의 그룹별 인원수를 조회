@@ -1,0 +1,4 @@
+select to_char(birth, 'YYYY') 연도, gender, count(*)
+from pc_member
+group by to_char(birth, 'YYYY'), gender
+order by 연도 desc, gender desc;
