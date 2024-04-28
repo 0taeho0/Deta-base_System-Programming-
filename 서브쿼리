@@ -1,0 +1,6 @@
+select id, total
+from pc_use
+where total = (
+                select max(total)
+                from pc_use
+              );
