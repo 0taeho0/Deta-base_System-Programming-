@@ -1,0 +1,4 @@
+select id, sum(total)  
+from pc_use
+group by id, total
+having total >= 5000;
