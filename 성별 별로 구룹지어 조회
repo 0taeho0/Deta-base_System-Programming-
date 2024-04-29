@@ -1,0 +1,3 @@
+select decode(gender, 1, '남자', 2, '여자', '아직모름') 성별, count(*), count(distinct gender)
+from pc_member
+group by gender;
