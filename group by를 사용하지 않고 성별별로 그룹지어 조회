@@ -1,0 +1,11 @@
+select count(gender)
+from pc_member
+where gender = 1
+union all
+select count(gender)
+from pc_member
+where gender = 2
+union all
+select count(gender)
+from pc_member
+where gender = 3;
