@@ -1,0 +1,4 @@
+select substr(lpad(start_time, 4, 0), 1, 2)
+       ||':'||
+       substr(lpad(start_time, 4, 0), 3, 2)
+from pc_use;
