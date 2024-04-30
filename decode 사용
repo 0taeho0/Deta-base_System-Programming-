@@ -1,0 +1,4 @@
+select id 아이디,
+    decode(add_time, 0, '-', to_char(add_time, '99')||' 시간') 시간충전,
+    to_char(total, '999,999') 쓴돈
+from pc_use;
