@@ -1,0 +1,4 @@
+SELECT *
+FROM pc_use INNER JOIN pc_emp
+ON pc_use.name = pc_emp.name
+order by pc_use.name;
