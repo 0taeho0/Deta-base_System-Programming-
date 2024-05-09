@@ -1,0 +1,3 @@
+select job_id, manager_id, department_id, count(*)
+from EMPLOYEES
+group by grouping sets(job_id, manager_id, department_id);
