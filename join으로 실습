@@ -1,0 +1,3 @@
+select id, fd1, menu_name, fd1_price
+from pc_use join pc_menu
+on pc_use.fd1 = pc_menu.menu_no;
