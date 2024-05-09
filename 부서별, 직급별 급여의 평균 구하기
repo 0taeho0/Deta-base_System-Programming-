@@ -1,0 +1,3 @@
+select department_id, job_id, round(avg(salary)), grouping(department_id), grouping(job_id)
+from employees
+group by grouping sets(department_id, job_id);
