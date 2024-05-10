@@ -1,0 +1,5 @@
+select id, name, to_char(sysdate, 'yyyy-mm-dd'), to_char(birth, 'yyyy-mm-dd'),
+    decode(sign(round(months_between(sysdate, birth)*31)),
+            -1, abs(round(months_between(sysdate, birth)*31))||'일 남으셨네요',
+            1, round(months_between(sysdate, birth)*31)||'일 지나셨네요')
+from pc_member;
