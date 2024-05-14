@@ -1,0 +1,7 @@
+-- 이용 테이블(pc_use)에서 음식1(pc_use.fd1)에 대해 종류에 따른 주문수량과
+-- 음식이름(pc_menu.menu_name)을 출력하시오.(주문수량이 많은 순으로 내림차순 정렬하시오.)
+select m.menu_name, count(u.fd1) 주문수량
+from pc_use u right outer join pc_menu m
+on u.fd1 = m.menu_no
+group by m.menu_name
+order by count(u.fd1) desc;
