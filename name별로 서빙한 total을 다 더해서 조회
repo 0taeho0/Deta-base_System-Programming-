@@ -1,0 +1,4 @@
+SELECT e.name, SUM(total) AS total_sum
+FROM pc_use u INNER JOIN pc_emp e
+on u.name = e.name
+GROUP BY e.name;
