@@ -1,0 +1,10 @@
+SELECT e.name, 
+    case
+        when sum(total) >= 20000 then 'A'
+        when sum(total) >= 15000 then 'B'
+        ELSE 'D'
+    END AS result
+from pc_use u JOIN pc_emp e
+on u.name = e.name
+GROUP BY e.name
+order by result ASC; 
