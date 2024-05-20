@@ -1,0 +1,5 @@
+select e.employee_id, e.last_name|| ' ' || e.first_name
+        ,m.manager_id, m.last_name ||' '|| m.first_name
+from employees e join employees m
+on e.manager_id = m.employee_id
+order by employee_id;
