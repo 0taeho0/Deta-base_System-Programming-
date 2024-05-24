@@ -1,0 +1,5 @@
+select e.employee_id, e.last_name||' '||e.first_name, e.manager_id,
+    m.last_name||' '||m.first_name
+from employees e full outer join employees m
+on e.manager_id = m.employee_id
+order by e.employee_id;
