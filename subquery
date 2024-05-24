@@ -1,0 +1,13 @@
+-- 성(first_name)이 'Guy'인 친구와 같은 부서(department_id)인 사원의
+--  급여보다 많이 받는 사원의 모든 정보를 구하시오
+select *
+from employees
+where salary > all(
+        select salary
+        from employees
+        where department_id = (
+                select department_id
+                from employees
+                where first_name = 'Guy'
+        )
+);
