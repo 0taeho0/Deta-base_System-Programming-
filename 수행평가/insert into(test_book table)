@@ -1,0 +1,8 @@
+insert into test_book values(301, '리틀 라이프', '한야 야나기하라', 2016, '소설', 101);
+insert into test_book values(302, '불변의 법칙', '모건 하우절', 2024, '에세이', 102);
+insert into test_book values(303, '더 머니 북', '토스', 2024, '금융', null);
+insert into test_book values(304, '나를 소모하지 않는 현명한 태도에 관하여', '마티아스 뇔케', 2024, '인간관계', 105);
+insert into test_book values(305, '모순', '양귀자', 2013, '소설', null);
+insert into test_book values(306, '부자의 마지막 가르침', '다우치 마나부', 2024, '금융', 101);
+insert into test_book values(307, '허송세월', '김훈', 2024, '에세이', 104);
+insert into test_book values(308, '나의 돈키호테', '김호연', 2024, '소설', 105);
