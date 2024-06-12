@@ -1,0 +1,4 @@
+select to_char(join_date, 'YYYY') 년도, count(MEM_NO)
+from test_member
+group by to_char(join_date, 'YYYY')
+order by 년도 desc;
