@@ -1,0 +1,9 @@
+create table test_book (
+    book_id number(3),
+    title varchar2(100),
+    author varchar2(50),
+    pub_year number(4),
+    genre varchar2(20),
+    borrowed_by number(3),
+    primary key(book_id)
+);
