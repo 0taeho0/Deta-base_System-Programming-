@@ -1,0 +1,5 @@
+-- 도서테이블과 회원 테이블에서 책제목과, 대여자, 대여자의 회원명과 주민번호를 조회.
+-- 단, 대여자가 없는 책도 출력해야 함.
+select b.title, b.borrowed_by, m.name, m.jumin 
+from test_book b left outer join test_member m
+on b.borrowed_by = m.mem_no;
