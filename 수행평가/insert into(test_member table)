@@ -1,0 +1,5 @@
+insert into test_member values(101, '김성일', '2022-05-05', '850301-1111111', 11112222);
+insert into test_member values(102, '나성일', '2022-07-07', '090707-3333333', 33334444);
+insert into test_member values(103, '박성일', '2023-12-22', '990301-2222222', 55556666);
+insert into test_member values(104, '이성일', '2024-09-28', '900301-2222222', 77778888);
+insert into test_member values(105, '하성일', '2024-10-18', '110102-4444444', 99990000);
