@@ -1,0 +1,3 @@
+-- 이름, 가입일자를 YYYY-DD-MM 에서 YYYY/DD/MM으로 바꾸어서 조회하고 번호를 ***-****-**** 이런 형식으로 조회하세오
+select name 이름, to_char(join_date,'YYYY')||'/'||to_char(join_date,'MM')||'/'||to_char(join_date,'DD') 가입일자, '010'||'-'||substr(phone, 1,4)||'-'||substr(phone, 5,4) 전화번호
+from member_master;
