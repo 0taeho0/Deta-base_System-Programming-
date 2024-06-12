@@ -1,0 +1,8 @@
+create table test_member(
+    mem_no number(3),
+    name varchar2(20),
+    join_date date,
+    jumin varchar2(14),
+    phone number(8),
+    primary key(mem_no)
+);
