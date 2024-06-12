@@ -1,0 +1,2 @@
+-- 장르별로 사람수를 구하고 사람 수를 오름차순 나타내시오
+select genre count(*) 명수 from book_master group by genre order by 명수 asc;
